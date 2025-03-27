@@ -66,7 +66,7 @@ def main():
         bikesList.sort()
         
     #Display "Here is the list in alphabetical order 'list' "
-        print(f"\nHere is our motorcycle's list in alphabetical order: {bikesList}")
+        print(f"\nHere is our motorcycle's list in alphabetical order: \n{bikesList}")
        
     #Display "The last item in the list now is 'display last item in list' " using -1
         print(f"\nThe last brand in our list now is: {bikesList[-1]}")
@@ -77,7 +77,7 @@ def main():
     #Use an infinite loop (while True) to ask the user to enter an item to be removed from the list.
     #if the item the user enters is in the list delete it and exit the loop (use break)
         while True:
-            itemToRemove = input("Please enter a brand to remove from the list (or 'exit' to stop): ").capitalize()
+            itemToRemove = input("If you want to remove one enter the name to remove from the list (or 'exit' to stop): ").capitalize()
             if itemToRemove.lower() == "exit":
                 break
             elif itemToRemove in bikesList:
