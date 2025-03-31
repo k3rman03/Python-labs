@@ -1,6 +1,6 @@
 # Kerman Rodriguez
 # 03/24/2025
-# THis programs demostrates non-value returnig functions
+# This programs demostrates non-value returnig functions
 
 def main():
     # Declare variables
