@@ -34,9 +34,9 @@ def main():
     sleep(1) # fractions of a second
     
     # Prompt for a number
-    num1 = int(input("Enter a number to see the square root: \n"))
+    num1 = int(input("Enter a number to see the square root: "))
 
-    print("Here coms your answer....")
+    print("\nHere coms your answer....")
     sleep(.75)
     
                

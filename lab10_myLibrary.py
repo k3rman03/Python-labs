@@ -1,3 +1,5 @@
+from math import ceil
+
 def displayIntro ():
     print("Hi")
 
@@ -23,5 +25,5 @@ def sales_price_calc (purchase_price):
     print(f"Purchase Price: ${purchase_price:.2f}") #{:.2f} formats the float to 2 decimal places
     print(f"Operating Costs (15%): ${operating_costs:.2f}")
     print(f"Profit (30%): ${profit:.2f}")
-    print(f"Sale Price: ${sale_price:.2f}")
+    print(f"Sale Price: ${ceil(sale_price):.2f}") # ceil rounds up to the nearest whole number
     return sale_price
